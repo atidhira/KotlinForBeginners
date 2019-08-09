@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/item_name"
+            style="@style/Header"
+            android:padding="5dp"
+            android:text="@string/collection" />
+
+        <LinearLayout
+            style="@style/LinearViewTheme"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/LinearViewDarkTheme"
+                android:padding="5dp"
+                android:text="@string/collection" />
+
+            <TextView
+                android:id="@+id/tvCollection"
+                style="@style/TextItem"
+                tools:text="Isi" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/LinearViewTheme"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/LinearViewDarkTheme"
+                android:padding="5dp"
+                android:text="@string/list" />
+
+            <TextView
+                android:id="@+id/tvList"
+                style="@style/TextItem"
+                tools:text="Isi" />
+
+            <TextView
+                android:id="@+id/tvListSyntax"
+                style="@style/TextItem.Syntax"
+                tools:text="syntax" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/LinearViewTheme"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/LinearViewDarkTheme"
+                android:padding="5dp"
+                android:text="@string/set" />
+
+            <TextView
+                android:id="@+id/tvSet"
+                style="@style/TextItem"
+                tools:text="Isi" />
+
+            <TextView
+                android:id="@+id/tvSetSyntax"
+                style="@style/TextItem.Syntax"
+                tools:text="syntax" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/LinearViewTheme"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/LinearViewDarkTheme"
+                android:padding="5dp"
+                android:text="@string/map" />
+
+            <TextView
+                android:id="@+id/tvMap"
+                style="@style/TextItem"
+                tools:text="Isi" />
+
+            <TextView
+                android:id="@+id/tvMapSyntax"
+                style="@style/TextItem.Syntax"
+                tools:text="syntax" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

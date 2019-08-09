@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/item_name"
+            style="@style/Header"
+            android:padding="5dp"
+            android:text="@string/arrays" />
+
+        <LinearLayout
+            style="@style/LinearViewTheme"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/LinearViewDarkTheme"
+                android:padding="5dp"
+                android:text="@string/arrays" />
+
+            <TextView
+                android:id="@+id/tvArray1"
+                style="@style/TextItem"
+                tools:text="Isi" />
+
+            <TextView
+                android:id="@+id/tvArrSyntax1"
+                style="@style/TextItem.Syntax"
+                tools:text="Syntax" />
+
+            <TextView
+                android:id="@+id/tvArray2"
+                style="@style/TextItem"
+                tools:text="Isi" />
+
+            <TextView
+                android:id="@+id/tvArrSyntax2"
+                style="@style/TextItem.Syntax"
+                tools:text="Syntax" />
+
+            <TextView
+                android:id="@+id/tvArray3"
+                style="@style/TextItem"
+                tools:text="Isi" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Kotlin For Beginners</string>
+    <string name="image">Image</string>
+    <string name="apa_itu_kotlin">Apa itu Kotlin?</string>
+    <string name="keunggulan_kotlin">Keunggulan Kotlin</string>
+    <string name="bahasa_kotlin">Bahasa Kotlin</string>
+    <string name="menjalankan_program_kotlin">Menjalankan Program Kotlin</string>
+    <string name="instalasi_openjdk">Instalasi OpenJDK</string>
+    <string name="installasi_gradle">Installasi Gradle</string>
+    <string name="instalasi_intellij_idea">Instalasi IntelliJ IDEA</string>
+    <string name="data_types">Data Types</string>
+    <string name="numbers">Numbers</string>
+    <string name="string">String</string>
+    <string name="arrays">Arrays</string>
+    <string name="_boolean">Boolean</string>
+    <string name="variable">Variable</string>
+    <string name="data_type">Data Type</string>
+    <string name="operasi_pada_numbers">Operasi pada Numbers</string>
+    <string name="nullable_types">Nullable Types</string>
+    <string name="pengertian_null">Pengertian Null</string>
+    <string name="save_calls_dan_elvis_operator">Save Calls dan Elvis Operator</string>
+    <string name="collection">Collection</string>
+    <string name="list">List</string>
+    <string name="set">Set</string>
+    <string name="map">Map</string>
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/item_name"
+            style="@style/Header"
+            android:padding="5dp"
+            android:text="@string/nullable_types" />
+
+        <LinearLayout
+            style="@style/LinearViewTheme"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/LinearViewDarkTheme"
+                android:padding="5dp"
+                android:text="@string/pengertian_null" />
+
+            <TextView
+                android:id="@+id/tvNullable"
+                style="@style/TextItem"
+                tools:text="Isi" />
+
+            <TextView
+                android:id="@+id/tvNullSyntax"
+                style="@style/TextItem.Syntax"
+                tools:text="syntax" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/LinearViewTheme"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/LinearViewDarkTheme"
+                android:padding="5dp"
+                android:text="@string/save_calls_dan_elvis_operator" />
+
+            <TextView
+                android:id="@+id/tvOperator1"
+                style="@style/TextItem"
+                tools:text="Isi" />
+
+            <TextView
+                android:id="@+id/tvOprSyntax1"
+                style="@style/TextItem.Syntax"
+                tools:text="syntax" />
+
+            <TextView
+                android:id="@+id/tvOperator2"
+                style="@style/TextItem"
+                tools:text="Isi" />
+
+            <TextView
+                android:id="@+id/tvOprSyntax2"
+                style="@style/TextItem.Syntax"
+                tools:text="syntax" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
